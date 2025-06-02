@@ -24,8 +24,9 @@ morse_code = {
 }
 
 result =''
-
 for sign in textTocode:
  result += morse_code[sign.upper()]
 
 print(result)
+
+# print(morse_code[sign.upper()] for sign in textTocode)
